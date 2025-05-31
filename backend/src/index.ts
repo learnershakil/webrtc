@@ -14,7 +14,8 @@
  */
 
 import { WebSocket, WebSocketServer } from "ws";
-import express, { Request, Response } from "express";
+import express from "express";
+import type { Request, Response } from "express";
 import { createServer } from "http";
 import { randomUUID } from "crypto";
 import { z } from "zod"; // validation krwa lete h
